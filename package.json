@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",
-    "serve": "live-server --entry-file=./index.html"
+    "watch": "webpack --mode development --watch",
+    "serve": "live-server --entry-point=./index.html"
   },
   "keywords": [],
   "author": "",
